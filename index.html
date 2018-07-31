@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/reboot.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSY_9cMH9AtEw6dlMUniRc6C9W6dxRs8k&callback=initMap"></script>
+    <script>
+        function initMap() {
+            //console.log('hayalguienenmaps');
+            var canarias = { lat: 28.143745, lng: -15.421552 };
+            var map = new google.maps.Map(
+                document.getElementById('map'), { zoom: 7, center: canarias })
+            var marker = new google.maps.Marker({ position: canarias, map: map });
+
+
+            var input = document.getElementById('pac-input');
+            map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+        }
+    </script>
+
+</head>
+
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="nav__container">
+                <img src="assets/images/logo.png" alt="not found"></img>
+                <p class="the">the</p>
+                <p class="fox">fox</p></div>
+            <div class="acnt">
+                <div class="aborder"><a href="" class="navitems">HOME</a></div>
+                <div class="aborder"><a href="" class="navitems">PAGE</a></div>
+                <div class="aborder"><a href="" class="navitems">PORTFOLIO</a></div>
+                <div class="aborder"><a href="" class="navitems">BLOG</a></div>
+                <div class="aborder"><a href="" class="navitems">SHOP</a></div>
+                <div class="aborder"><a href="" class="navitems">TRAVEL</a></div>
+                <div class="aborder"><a href="" class="navitems">SHORTCODES</a></div>
+                <div class="aborder"><a href="" class="navitems">FEATURES</a></div>
+                <div class="aborder"><a href="" class="navitems">CONTACT</a></div>
+            </div>
+                <img src="assets/images/buscar.png" alt="not found" class="buscar"></img>
+                <img src="assets/images/cesta.png" alt="not found"></img>
+            
+        </div>
+    </nav>
+
+
+    <!--Section 1-->
+    <section class="section1">
+        <div class="wrapper">
+            <p>WE ARE ALWAYS WORKING HARD TO</p>
+            <h3>BUILD AWESOME WORK</h3>
+            <img src="assets/images/rectangle.png" class="rectangle" alt="">
+            <ul>
+                <li>Fully Responsive</li>
+                <li>Retina Ready</li>
+                <li>Extremely Customizable</li>
+                <li>WP 3.9+Ready</li>
+            </ul>
+
+            <a href="#">BUY IT NOW</a>
+            <div><img src="assets/images/pagination.png" alt="not found"></img></div>
+        </div>
+    </section>
+
+
+    <!--Section 2-->
+    <section class="section2">
+        <div class="wrapper">
+            <div class="s2left">
+                <h1>Hello!</h1>
+                <p>Welcome to ThemeForest! Read our Getting Started Guide, visit the Blog for recent news and make yourself
+                    at home! You can find information about ThemeForest in our Knowledgebase.</p>
+
+                <h2>WordPress Drag and Drop Page Themes</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet est non massa aliquet dictum eget
+                    eu sem. Cras ornare quam et lorem luctus, et dapibus lectus porttitor. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Suspendisse potenti. Mauris luctus imperdiet purus vel bibendum. Phasellus ultrices
+                    hendrerit mauris nec gravida.</p>
+                <a href="">VIEW DETAIL</a>
+            </div>
+            <div class="s2right">
+
+                <div class="s2box">
+                    <h2>Web Design Service</h2>
+                    <a href="">^</a>
+                </div>
+                <div class="s2box">
+                    <h2>Creative Service</h2>
+                    <a href="">^</a>
+                </div>
+                <div class="s2box inside">
+                    <img src="https://source.unsplash.com/random/102x102" alt=""></img>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos corporis magni blanditiis, dicta, reprehenderit
+                        quasi nemo suscipit numquam beatae quidem pariatur atque similique corrupti sed neque eveniet quam
+                        doloremque accusamus.</p>
+                </div>
+
+                <div class="s2box">
+                    <h2>SEO Solutions Service</h2>
+                    <a href="">^</a>
+                </div>
+
+                <div class="s2box">
+                    <h2>Graphic Design Service</h2>
+                    <a href="">^</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!--Section 3-->
+    <section class="section3">
+        <div class="wrapper">
+            <h1>AMAZING WORKS</h1>
+            <div class="albums">
+                <div class="album1">
+                    <div class="albumtitle">
+                        <h2>Awesome Work Title Here</h2>
+                        <div class="likes">
+                            <p>34</p>
+                            <img src="assets/images/heart.png" alt=""></img>
+                        </div>
+                    </div>
+                    <img src="https://source.unsplash.com/random/390x200" alt="" class="photo"></img>
+                </div>
+
+                <div class="album2">
+                    <div class="albumtitle">
+                        <h2>Awesome Work Title Here</h2>
+                        <div class="likes">
+                            <p>646</p>
+                            <img src="assets/images/heart.png" alt=""></img>
+                        </div>
+                    </div>
+                    <img src="https://source.unsplash.com/random/390x200" alt="" class="photo"></img>
+                </div>
+
+                <div class="album3">
+                    <div class="albumtitle">
+                        <h2>Awesome Work Title Here</h2>
+                        <div class="likes">
+                            <p>12</p>
+                            <img src="assets/images/heart.png" alt=""></img>
+                        </div>
+                    </div>
+                    <img src="https://source.unsplash.com/random/390x200" alt="" class="photo"></img>
+                </div>
+
+                <div class="album4">
+                    <div class="albumtitle">
+                        <h2>Awesome Work Title Here</h2>
+                        <div class="likes">
+                            <p>76</p>
+                            <img src="assets/images/heart.png" alt=""></img>
+                        </div>
+                    </div>
+                    <img src="https://source.unsplash.com/random/390x200" alt="" class="photo"></img>
+                </div>
+
+                <div class="album5">
+                    <div class="albumtitle">
+                        <h2>Awesome Work Title Here</h2>
+                        <div class="likes">
+                            <p>57</p>
+                            <img src="assets/images/heart.png" alt=""></img>
+                        </div>
+                    </div>
+                    <img src="https://source.unsplash.com/random/390x200" alt="" class="photo"></img>
+                </div>
+
+                <div class="album6">
+                    <div class="albumtitle">
+                        <h2>Awesome Work Title Here</h2>
+                        <div class="likes">
+                            <p>02</p>
+                            <img src="assets/images/heart.png" alt=""></img>
+                        </div>
+                    </div>
+                    <img src="https://source.unsplash.com/random/390x200" alt="" class="photo"></img>
+
+                </div>
+            </div>
+    </section>
+
+
+    <!--Section 4-->
+    <section class="section4">
+        <div class="wrapper">
+            <div class="s2left">
+                <h1>Why Work With Us!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada nulla sit amet sem sagittis, posuere
+                    aliquet ipsum vehicula. Suspendisse nec mollis turpis.</p>
+
+                <p>Aenean tristique a mi ac porta. Morbi adipiscing suscipit risus vel ullamcorper. Pellentesque et est ante.
+                    Vestibulum convallis, justo at tristique faucibus, nunc nunc euismod magna, in ultricies felis libero
+                    vitae erat. Sed quis porta felis, a convallis nulla. Curabitur auctor ligula id nunc dignissim, a porta
+                    libero cursus. </p>
+
+                <a href="">VIEW DETAIL</a>
+            </div>
+            <div class="s2right">
+                <img src="assets/images/images4.png" alt="">
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--Section 5-->
+    <section class="section5">
+        <div class="s5cnt green1">
+            <div class="s5content">
+                <p class="s5numbers">28.3940</p>
+                <h2 class="s5text">PURCHASES</h2>
+            </div>
+        </div>
+        <div class="s5cnt green2">
+            <div class="s5content">
+                <p class="s5numbers">345.789</p>
+                <h2 class="s5text">SUSCRIBERS</h2>
+            </div>
+        </div>
+        <div class="s5cnt green1">
+            <div class="s5content">
+                <p class="s5numbers">694+</p>
+                <h2 class="s5text">FEATURES ADDED</h2>
+            </div>
+        </div>
+        <div class="s5cnt green2">
+            <div class="s5content">
+                <p class="s5numbers">1,273,890</p>
+                <h2 class="s5text">CUSTOMERS</h2>
+            </div>
+        </div>
+        <div class="s5cnt green1">
+            <div class="s5content">
+                <p class="s5numbers">3,637</p>
+                <h2 class="s5text">COMMENTS</h2>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Section 6-->
+    <section class="section6">
+        <div class="wrapper">
+            <h1>What Other Say About TheFox</h1>
+            <div class="s6buttons">
+                <a href="#" class="b1">
+                    < Previous</a>
+                        <a href="#">Next ></a>
+            </div>
+
+            <div class="comments">
+                <div class="comment">
+                    <div class="left">
+                        <img src="https://source.unsplash.com/random/105x100" alt=""></img>
+                    </div>
+                    <div class="right">
+                        <h2>Sam Isbiter</h2>
+                        <h3>web designer</h3>
+                        <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sed lectus a mauris facilisis
+                            porta vel a nunc. Fusce sit amet neque volutpat, pretium risus id, placerat libero. Suspendisse
+                            ac condimentum lectus.</p>
+                    </div>
+                </div>
+
+                <div class="comment">
+                    <div class="left">
+                        <img src="https://source.unsplash.com/random/105x100" alt=""></img>
+                    </div>
+                    <div class="right">
+                        <h2>Sam Isbiter</h2>
+                        <h3>web designer</h3>
+                        <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sed lectus a mauris facilisis
+                            porta vel a nunc. Fusce sit amet neque volutpat, pretium risus id, placerat libero. Suspendisse
+                            ac condimentum lectus.</p>
+                    </div>
+                </div>
+
+                <div class="comment">
+                    <div class="left">
+                        <img src="https://source.unsplash.com/random/105x100" alt=""></img>
+                    </div>
+                    <div class="right">
+                        <h2>Sam Isbiter</h2>
+                        <h3>web designer</h3>
+                        <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sed lectus a mauris facilisis
+                            porta vel a nunc. Fusce sit amet neque volutpat, pretium risus id, placerat libero. Suspendisse
+                            ac condimentum lectus.</p>
+                    </div>
+                </div>
+
+                <div class="comment">
+                    <div class="left">
+                        <img src="https://source.unsplash.com/random/105x100" alt=""></img>
+                    </div>
+                    <div class="right">
+                        <h2>Sam Isbiter</h2>
+                        <h3>web designer</h3>
+                        <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sed lectus a mauris facilisis
+                            porta vel a nunc. Fusce sit amet neque volutpat, pretium risus id, placerat libero. Suspendisse
+                            ac condimentum lectus.</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+        <div class="companies">
+            <div class="wrapper">
+                <div class="companiescnt">
+                    <img src="assets/images/telenor.png" alt=""></img>
+                </div>
+                <div class="companiescnt">
+                    <img src="assets/images/nice.png" alt=""></img>
+                </div>
+                <div class="companiescnt">
+                    <img src="assets/images/plate.png" alt=""></img>
+                </div>
+                <div class="companiescnt">
+                    <img src="assets/images/brilliant.png" alt=""></img>
+                </div>
+                <div class="companiescnt">
+                    <img src="assets/images/microsoft.png" alt=""></img>
+                </div>
+                <div class="companiescnt">
+                    <img src="assets/images/colormedia.png" alt=""></img>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!--Section 7-->
+    <section class="section7">
+
+        <input id="pac-input" class="controls" type="text" placeholder="Enter your location"></input>
+        <div id="map"></div>
+    </section>
+
+
+    <!--Section 8-->
+    <section class="section8">
+        <div class="wrapper">
+            <div class="s2left">
+                <h1>TheFox Design</h1>
+                <div class="s8social">
+                    <img src="assets/images/facebook.png" alt=""></img>
+                    <img src="assets/images/twitter.png" alt=""></img>
+                    <img src="assets/images/rss.png" alt=""></img>
+                    <img src="assets/images/google.png" alt=""></img>
+                    <img src="assets/images/flickr.png" alt=""></img>
+                    <img src="assets/images/dribbble.png" alt=""></img>
+                    <img src="assets/images/linkedin.png" alt=""></img>
+                    <img src="assets/images/pinterest.png" alt=""></img>
+                    <img src="assets/images/skype.png" alt=""></img>
+                    <img src="assets/images/vimeo.png" alt=""></img>
+                    <img src="assets/images/tumblr.png" alt=""></img>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id nulla eleifend, placerat metus ac, tempor
+                    nisl. Sed pellentesque, augue quis viverra lobortis, massa augue congue odio, sit amet volutpat arcu
+                    neque vitae lorem.</p>
+
+                <p>267 Banbury Road, Summertown</p>
+                <p>Oxford, United Kingdom OX2 7HT</p>
+                <p>United Kingdom</p>
+                <p>Phone: 01865 339665</p>
+                <p>Fax: 01865 339301</p>
+                <p>Email: hello@thefoxdesign.com</p>
+
+            </div>
+            <div class="s8right">
+                <input type="text" placeholder="Name*"></input>
+                <input type="text" placeholder="Email*"></input>
+                <input type="text" placeholder="Phone Number*"></input>
+                <textarea name="" id="" cols="30" rows="4"></textarea>
+                <a href="">SUBMIT NOW</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Section 9-->
+    <section class="section9">
+        <div class="s9cnt gray1">
+            <div class="s9content">
+                <h2 class="s9h2">Standard Blog Title Here</h2>
+                <p class="s9p">27 July, 2014 | Category</p>
+            </div>
+        </div>
+        <div class="s9cnt gray2">
+            <div class="s9content">
+                <h2 class="s9h2">Standard Blog Title Here</h2>
+                <p class="s9p">27 July, 2014 | Category</p>
+            </div>
+        </div>
+        <div class="s9cnt gray1">
+            <div class="s9content">
+                <h2 class="s9h2">Standard Blog Title Here</h2>
+                <p class="s9p">27 July, 2014 | Category</p>
+            </div>
+        </div>
+        <div class="s9cnt gray2">
+            <div class="s9content">
+                <h2 class="s9h2">Standard Blog Title Here</h2>
+                <p class="s9p">27 July, 2014 | Category</p>
+            </div>
+        </div>
+        <div class="s9cnt gray1">
+            <div class="s9content">
+                <h2 class="s9h2">Standard Blog Title Here</h2>
+                <p class="s9p">27 July, 2014 | Category</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Section 10-->
+    <section class="section10">
+
+        <h1>Get Stronger For Your Work</h1>
+        <p>TheFox is One Of The Top Themeforest’s Selling PSD Theme of All Time</p>
+        <a href="">PURCHASE NOW</a>
+
+    </section>
+
+
+    <!--Section 11-->
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="part1">
+                <div class="contents">
+                    <p class="the">the</p>
+                    <p class="fox">fox</p>
+                    <p>Phasellus et nisl tellus. Etiam facilisis eu nisi scelerisque faucibus. Proin semper suscipit magna,
+                        nec imperdiet lacus semper vitae. Sed hendrerit enim non justo posuere placerat eget purus mauris.</p>
+                    <p>Etiam facilisis eu nisi scelerisque faucibus. Proin semper suscipit magna, nec imperdiet lacus semper.</p>
+                </div>
+                <div class="contents">
+                    <h2>RECENT POSTS</h2>
+                    <div class="content">
+                        <p>Blog Slideshow Post</p>
+                        <p class="date">03 Jul</p>
+                    </div>
+                    <div class="content">
+                        <p>Standar Post</p>
+                        <p class="date">27 May</p>
+                    </div>
+                    <div class="content">
+                        <p>Video Post With Quote Post</p>
+                        <p class="date">23 May</p>
+                    </div>
+                    <div class="content">
+                        <p>Text Post Only Type</p>
+                        <p class="date">15 Apr</p>
+                    </div>
+                    <div class="content">
+                        <p>Awesome Post Title Here</p>
+                        <p class="date">04 Mar</p>
+                    </div>
+
+                </div>
+
+                <div class="contents">
+                    <h2>RECENT TWEETS</h2>
+                    <div class="content tweet">
+                        <div>
+                            <img src="assets/images/tweet.png" alt=""></img>
+                        </div>
+                        <div>
+                            <p>Just updated my new side</p>
+                            <p>@samisbister @wjndheo</p>
+                            <p class="tweetd">35 minutes ago</p>
+                        </div>
+                    </div>
+                    <div class="content tweet">
+                        <div>
+                            <img src="assets/images/tweet.png" alt=""></img>
+                        </div>
+                        <div>
+                            <p>Hey everybody! Adelfox Update WP version. 356 Core Features Addes. Check it now!
+                                <span>http://t.co/38t6sjx...</span>
+                            </p>
+                            <p>@samisbister @wjndheo</p>
+                            <p class="tweetd">35 minutes ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contents">
+                    <h2>FEATURED WORKS</h2>
+                    <div class="content work">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="part2bg">
+            <div class="wrapper">
+                <div class="part2">
+                    <p>Copyright 2014
+                        <span>TheFox Theme</span> by Tran Mau Tri Tam</p>
+                </div>
+                <div class="part2">
+                    <p>All Rights Reserved</p>
+                </div>
+                <div class="part2">
+                    <p>Powered by WordPress</p>
+                </div>
+                <div class="icons">
+                    <img src="assets/images/conjunto.png" alt=""></img>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
